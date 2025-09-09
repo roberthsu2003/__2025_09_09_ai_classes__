@@ -1,0 +1,2 @@
+# __2025_09_09_ai_classes__
+ai_education
