@@ -26,3 +26,32 @@ print("建立一個3x2的全部值為1的陣列 arr4:\n", arr4)
 # 建立一個3x3的單位矩陣（對角線為1，其餘為0）
 arr5 = np.eye(3)
 print("建立一個3x3的單位矩陣 arr5:\n", arr5)
+
+print("="*15)
+# 建立一個2x2的隨機陣列，元素值介於0到1之間
+arr6 = np.random.rand(2, 2)
+print("建立一個2x2的隨機陣列 arr6:\n", arr6)
+print("="*15)
+
+# 2. 陣列基本操作
+# 以下展示NumPy陣列的基本運算
+a = np.array([10, 20, 30])
+b = np.array([1, 2, 3])
+print("陣列 a:", a)
+print("陣列 b:", b)
+
+# 陣列相加
+c = a + b
+print("陣列相加 c = a + b:", c)
+
+# 陣列相減
+d = a - b
+print("陣列相減 d = a - b:", d)
+
+# 陣列相乘
+e = a * b
+print("陣列相乘 e = a * b:", e)
+
+# 陣列相除
+f = a / b
+print("陣列相除 f = a / b:", f)
