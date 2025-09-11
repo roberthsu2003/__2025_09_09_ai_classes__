@@ -15,7 +15,14 @@ import pandas as pd
 df_X = pd.DataFrame(X, columns=iris.feature_names)
 print("轉換後的DataFrame:\n", df_X)
 
-y = iris.target
-print("y的資料類型:", type(y))
-print("y的形狀:", y.shape)
-print("y的內容:", y)
+# 3. 使用 Matplotlib 視覺化特徵分佈 (花萼長度 vs 花瓣長度)
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(8, 4))
+plt.scatter(df_X['sepal length (cm)'], df_X['petal length (cm)'], c=iris.target, cmap='viridis', edgecolor='k')
+plt.title('Iris Dataset: Sepal Length vs Petal Length')
+plt.xlabel('Sepal Length (cm)')
+plt.ylabel('Petal Length (cm)')
+plt.colorbar(label='Species')
+plt.grid(True)
+plt.show()
