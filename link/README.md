@@ -6,6 +6,8 @@ https://youtube.com/live/4mOTeA2uwnc
 
 https://youtube.com/live/TxqnGLeo8KQ
 
+---
+
 ## 2025_09_11_上午
 
 https://youtube.com/live/KgqJfesnF7A
@@ -13,4 +15,12 @@ https://youtube.com/live/KgqJfesnF7A
 ## 2025_09_11_下午
 
 https://www.youtube.com/watch?v=ArkuPUPDo0U
+
+---
+
+## 2025_09_16_上午
+
+https://www.youtube.com/watch?v=_o3107pCk8Y
+
+---
 
