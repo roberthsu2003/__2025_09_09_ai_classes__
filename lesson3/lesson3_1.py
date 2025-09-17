@@ -12,7 +12,9 @@ if not os.path.exists(font_path):
 # 設定中文字型
 chinese_font = FontProperties(fname=font_path)
 
-# 產生資料集
+# make_forge() 是一個建立二元分類合成資料集的函式
+# X 變數（特徵）包含資料點的座標
+# y 變數（標籤）則對應每個點的類別（0 或 1）
 X, y = mglearn.datasets.make_forge()
 
 # 建立散點圖
